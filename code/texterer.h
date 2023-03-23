@@ -1,12 +1,15 @@
 #ifndef TEXTERER_H
 #define TEXTERER_H
 
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <time.h>
+#include <string.h>
 
 #define internal static
 

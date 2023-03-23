@@ -43,8 +43,7 @@ void*
 ArenaPush(Arena* arena, usize size)
 {
     if(arena->used + size > arena->total) {
-        fprintf(stderr, "%s\n", "[TODO] Implement growable arenas");
-        assert(0, "Arena Total size exceeded");
+        assert(0, "[TODO] Implement growable arenas");
     }
     void* result = arena->base + arena->used;
     arena->used += size;
